@@ -1,30 +1,23 @@
 {
   "name": "rex",
   "version": "1.0.0",
-  "description": "React and Express BoilerPlate App",
-  "main": "server.js",
+  "description": "A starting point for students at the QCC bootcamp",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js"
+    "test": "nodemon server/server.js",
+    "show": "cd client && npm start"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rinchenlama0075/rex.git"
+    "url": "git+https://github.com/frankmalafronte/qccFramework.git"
   },
-  "keywords": [
-    "Rinchen",
-    "Lama"
-  ],
-  "author": "Rinchen Lama",
-  "license": "MIT",
+  "author": "frank malafronte",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rinchenlama0075/rex/issues"
+    "url": "https://github.com/frankmalafronte/qccFramework/issues"
   },
-  "homepage": "https://github.com/rinchenlama0075/rex#readme",
+  "homepage": "https://github.com/frankmalafronte/qccFramework#readme",
   "dependencies": {
-    "concurrently": "^4.1.1",
-    "express": "^4.17.1",
-    "morgan": "^1.9.1",
     "nodemon": "^1.19.1"
   }
 }
