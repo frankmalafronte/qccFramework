@@ -1,0 +1,30 @@
+{
+  "name": "rex",
+  "version": "1.0.0",
+  "description": "React and Express BoilerPlate App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinchenlama0075/rex.git"
+  },
+  "keywords": [
+    "Rinchen",
+    "Lama"
+  ],
+  "author": "Rinchen Lama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rinchenlama0075/rex/issues"
+  },
+  "homepage": "https://github.com/rinchenlama0075/rex#readme",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
