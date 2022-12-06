@@ -23,7 +23,7 @@
   "homepage": "https://github.com/rinchenlama0075/rex#readme",
   "dependencies": {
     "concurrently": "^4.1.1",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "morgan": "^1.9.1",
     "nodemon": "^1.19.1"
   }
